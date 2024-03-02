@@ -1,1 +1,182 @@
+body {
+    margin: 0px;
+    background-color: #1f2937;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-items: center;
+}
+
+.logo {
+    flex: 1 1 auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+}
+
+a {
+text-decoration: none;
+color: lightgray;
+}
+.section1-container {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1f2937;
+    padding-bottom: 80px;
+    display: flex;
+    padding-top: 60px;
+    gap: 40px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.section1 button {
+    background-color: #2882F6;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+.section1-container img {
+    width: auto;
+    height: 200px;
+}
+
+.section2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 75px;
+}
+
+.subinformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subinformation p {
+    max-width: 140px;
+    text-align: center;
+}
+
+.section2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.top-information {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subsection3 {
+    max-width: 750px;
+
+}
+
+#quote {
+    font-size: 28px;
+    font-style: italic;
+    color: #394b64;
+    margin: 0px;
+}
+
+#author {
+    text-align: right;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.section4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.subsection4 {
+    background-color: #2882F6;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    padding: 30px 100px 30px 100px;
+    gap: 120px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    margin: 0px; 
+}
+
+.subsection4 p {
+    color: white;
+    margin: 0px; 
+}
+
+.section4 button{
+    background-color: #2882F6;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin: 15px;
+}
+
+/*
+* {
+    outline: 2px solid red;
+}
+*/
